@@ -1,20 +1,4 @@
-$PrimaryColor:#1D09EA;
-
-.navbar-text
+body
 {
-    color: $PrimaryColor !important;
-    font-weight: 900;
-    font-size: 30px !important;
-    margin-left: 100px;
-    cursor:text;
-}
-
-@media all and (max-width:375px)
-{
-    .navbar-text
-    {
-        margin-left: initial !important;
-        text-align: center !important;
-        margin: 0 auto !important;
-    }
+    
 }

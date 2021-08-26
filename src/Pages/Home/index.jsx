@@ -1,14 +1,19 @@
 import React from "react";
+
 import Header from "../../Components/Header";
-import NavHheader from "../../Components/NavHeader";
-import Products from "../../Components/Products";
+import LoginButton from "../../Components/LoginButton";
+import LogoutButton from "../../Components/LogoutButton";
+import Profile from "../../Components/Profile";
 
 const Home = () => {
     return (
         <>
             <Header />
-            <NavHheader Nav="Product" text="All Products"/>
-            <Products infoText="What product category are you looking for?" />
+            <div className="mt-4 text-center d-flex justify-content-evenly">
+                <LoginButton />
+                <LogoutButton />
+                <Profile /> 
+            </div>
         </>
     )
 }
