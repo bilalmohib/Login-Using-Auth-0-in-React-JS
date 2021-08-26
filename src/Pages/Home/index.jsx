@@ -12,8 +12,9 @@ const Home = () => {
             <div className="mt-4 text-center d-flex justify-content-evenly">
                 <LoginButton />
                 <LogoutButton />
-                <Profile /> 
             </div>
+            <br />
+            <Profile />
         </>
     )
 }
